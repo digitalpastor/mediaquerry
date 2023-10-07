@@ -1,0 +1,157 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>media query</title>
+        <meta name="viewport" content="width=device-width, initial-sale=1.0">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+            integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                background-image: url(suit\ able\ sss.jpg);
+                background-size: 500px;
+                font-family: sans-serif;
+                background-position: center;
+                
+
+            }
+
+            .menu-bar {
+                background: #ffffff;
+                text-align: center;
+            }
+
+            .menu-bar ul {
+                display: inline-flex;
+                list-style-type: none;
+
+            }
+
+            .menu-bar ul li {
+                width: 120px;
+                margin: 15px;
+                padding: 5px;
+            }
+
+            .menu-bar ul li a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .active,
+            .menu-bar ul li:hover {
+                background: #F2D587;
+                border-radius: 3px;
+            }
+
+            .menu-bar .fa {
+                margin-right: 8px;
+            }
+
+            .sub-menu-1 {
+                display: none;
+
+            }
+
+            .menu-barul li:hover .sub-menu-1 {
+                display: block;
+                position: absolute;
+                background: rgb(0, 100, 0);
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+
+            .menu-barul li:hover .sub-menu-1 ul {
+                display: block;
+                margin: 10px;
+            }
+            .text-content{
+                color: #ffffff;
+                padding-top: 70px;
+               
+                line-height: 20px;
+               
+            }
+
+            @media only screen and (max-width: 600px) {
+                
+            }
+             @media only screen and (min-width: 600px) {
+                
+            }
+             @media only screen and (min-width: 768px) {
+                
+            }
+             @media only screen and (min-width: 992px) {
+                
+            }
+             @media only screen and (min-width: 1200px) {
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="menu-bar">
+            <ul>
+                <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li><a href="#"><i class="fa fa-clone"></i>Services</a>
+
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Team</a></li>
+                        </ul>
+
+                    </div>
+
+                </li>
+                <li><a href="#"><i class="fa fa-users"></i>Clients</a></li>
+                <li><a href="#"><i class="fa fa-angelist"></i>Investors</a></li>
+                <li><a href="#"><i class="fa fa-inr"></i>Pricing</a></li>
+                <li><a href="#"><i class="fa fa-edit"></i>Training</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="text-content">
+            <h1>Welcome:</h1><br>
+            <p>What is Lorem Ipsum?<br>
+            <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. <br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
+                
+                Why do we use it?<br>
+                <br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                
+                
+                Where does it come from?<br>
+                <br>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                
+                Where can I get some?<br>
+               <br>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+
+        </div>
+
+    </body>
+
+    </html>
